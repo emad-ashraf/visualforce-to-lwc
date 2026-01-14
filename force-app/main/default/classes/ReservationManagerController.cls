@@ -1,5 +1,5 @@
 public with sharing class ReservationManagerController {
-    //Note: This is a sample, so we're using 'LIMIT' to simulate proper set/pagination controls
+    //Note: This is a sample example, so we're using 'LIMIT' to simulate proper set/pagination controls
     @auraEnabled(cacheable=true)
     public static List<CustomerServices.Customer> getCustomerList(
         String sObjectType
