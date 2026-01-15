@@ -3,7 +3,7 @@
 [![CI Workflow](https://github.com/trailheadapps/visualforce-to-lwc/workflows/CI/badge.svg)](https://github.com/trailheadapps/visualforce-to-lwc/actions?query=workflow%3ACI) [![Packaging Workflow](https://github.com/trailheadapps/visualforce-to-lwc/workflows/Packaging/badge.svg)](https://github.com/trailheadapps/visualforce-to-lwc/actions?query=workflow%3APackaging) [![codecov](https://codecov.io/gh/trailheadapps/visualforce-to-lwc/branch/main/graph/badge.svg)](https://codecov.io/gh/trailheadapps/visualforce-to-lwc)
 
 ![Visualforce to LWC logo](vf-to-lwc-logo.png)
-
+ 
 A collection of code examples to help you move from Visualforce to LWC. Each example shows a typical Visualforce pattern and its equivalent implementation in LWC. On each example, there's a link that takes you right to the Visualforce or LWC code in GitHub. Heavy usage of base components and features as Lightning Data Service.
 
 <div>
