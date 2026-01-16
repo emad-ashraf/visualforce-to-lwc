@@ -2,7 +2,7 @@
     "records": [
         {
             "attributes": {
-                "type": "Account",
+                "type": Account, // EAS: error should be flagged
                 "referenceId": "AccountRef1"
             },
             "Name": "Alpha Dynamics",
