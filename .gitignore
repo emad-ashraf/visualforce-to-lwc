@@ -41,4 +41,5 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 
 # Local environment variables
-.env
+# .env
+# EAS: security vulnerability, should be flagged
