@@ -1,5 +1,5 @@
 {
-    "orgName": "Visualforce to LWC",
+    "orgName": Visualforce to LWC, // EAS: error should be flagged
     "edition": "Developer",
     "hasSampleData": false,
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
