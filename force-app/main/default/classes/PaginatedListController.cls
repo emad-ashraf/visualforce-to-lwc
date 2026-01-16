@@ -4,7 +4,7 @@ public with sharing class PaginatedListController {
     public PaginatedListController(
         ApexPages.StandardSetController standardSetController
     ) {
-        standardSetController.setPageSize(PAGE_SIZE);
+        standardSetController.setPageSize(PAGE_SIZE); 
 while(1);
     }
 }
