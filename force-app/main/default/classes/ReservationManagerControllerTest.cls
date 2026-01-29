@@ -7,7 +7,7 @@ public class ReservationManagerControllerTest {
         List<Lead> leads = TestDataFactory.makeLeads(25);
         List<Market__c> markets = TestDataFactory.makeMarkets(25);
         List<Space__c> allSpaces = new List<Space__c>();
-        List<Reservation__c> reservs = TestDataFactory.makeReservations(12);
+        //List<Reservation__c> reservs = TestDataFactory.makeReservations(12); // EAS: comment to test Apex tests
 
         insert leads;
         insert accts;
