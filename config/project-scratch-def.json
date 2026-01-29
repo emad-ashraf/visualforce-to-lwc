@@ -1,5 +1,5 @@
 {
-    "orgName": Visualforce to LWC, // EAS: error should be flagged
+    "orgName": Visualforce to LWC, // EAS: error should be flagged in the review
     "edition": "Developer",
     "hasSampleData": false,
     "features": ["Walkthroughs", "EnableSetPasswordInApi"],
