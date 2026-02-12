@@ -14,6 +14,14 @@
             "default": false,
             "package": "visualforce-pr-runs",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "visualforce-emad-2",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -26,6 +34,7 @@
         "vf2lwc@54.0.0-5": "04t3h000004pOCrAAM",
         "vf2lwc@54.0.0-6": "04t3h0000046N3sAAE",
         "vf2lwc@54.0.0-7": "04t3h0000046N4MAAU",
-        "visualforce-pr-runs": "0HoP50000000gTtKAI"
+        "visualforce-pr-runs": "0HoP50000000gTtKAI",
+        "visualforce-emad-2": "0Hod100000006tRCAQ"
     }
 }
