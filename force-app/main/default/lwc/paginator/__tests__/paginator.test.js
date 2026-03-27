@@ -30,6 +30,7 @@ describe('c-paginator', () => {
 
         // Click the next(>) button
         const nextButtonEl = element.shadowRoot.querySelector('.next');
+        expect(nextButtonEl.label).toBe('Forward');
         expect(nextButtonEl.disabled).toBeFalsy();
         nextButtonEl.click();
 
@@ -55,6 +56,7 @@ describe('c-paginator', () => {
 
         // Click the Previous(<) button
         const prevButtonEl = element.shadowRoot.querySelector('.previous');
+        expect(prevButtonEl.label).toBe('Back');
         expect(prevButtonEl.disabled).toBeFalsy();
         prevButtonEl.click();
 
@@ -105,5 +107,21 @@ describe('c-paginator', () => {
         document.body.appendChild(element);
 
         await expect(element).toBeAccessible();
+    });
+
+    it('shows the current page status', async () => {
+        const element = createElement('c-paginator', {
+            is: Paginator
+        });
+        element.currentPage = 2;
+        element.totalPages = 5;
+
+        document.body.appendChild(element);
+        await flushPromises();
+
+        const statusEl = element.shadowRoot.querySelector('.status');
+        expect(statusEl.textContent.replace(/\s+/g, ' ').trim()).toBe(
+            'Page 2 of 5'
+        );
     });
 });
