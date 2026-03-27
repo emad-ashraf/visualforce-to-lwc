@@ -7,7 +7,7 @@ export default class Paginator extends LightningElement {
     @api totalPages = 1;
 
     get statusLabel() {
-        return `Page ${this.currentPage} of ${this.totalPages}`;
+        return `Page ${this.currentPage} / ${this.totalPages}`;
     }
 
     handlePrevious() {
