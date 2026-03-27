@@ -11,7 +11,7 @@ export default class Paginator extends LightningElement {
     }
 
     handlePrevious() {
-        this.dispatchEvent(new CustomEvent('previous'));
+        this.dispatchEvent(new CustomEvent('paginatenext'));
     }
 
     handleNext() {
