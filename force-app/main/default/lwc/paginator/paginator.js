@@ -7,15 +7,15 @@ export default class Paginator extends LightningElement {
     @api totalPages = 1;
 
     get statusLabel() {
-        return `Page ${this.currentPage} of ${this.totalPages}`;
+        return `Showing ${this.currentPage} of ${this.totalPages}`;
     }
 
     handlePrevious() {
-        this.dispatchEvent(new CustomEvent('previous'));
+        this.dispatchEvent(new CustomEvent('paginateprevious'));
     }
 
     handleNext() {
         // emit next-page event
-        this.dispatchEvent(new CustomEvent('next'));
+        this.dispatchEvent(new CustomEvent('paginatenext'));
     }
 }
