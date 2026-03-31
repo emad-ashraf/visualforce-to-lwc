@@ -22,6 +22,14 @@
             "default": false,
             "package": "code-review-2",
             "versionDescription": ""
+        },
+        {
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "path": "force-app",
+            "default": false,
+            "package": "github-visualforce-conflicts",
+            "versionDescription": ""
         }
     ],
     "namespace": "",
@@ -35,6 +43,7 @@
         "vf2lwc@54.0.0-6": "04t3h0000046N3sAAE",
         "vf2lwc@54.0.0-7": "04t3h0000046N4MAAU",
         "unittest1": "0HoP50000000eyLKAQ",
-        "code-review-2": "0HogK0000000oUfSAI"
+        "code-review-2": "0HogK0000000oUfSAI",
+        "github-visualforce-conflicts": "0HoP50000000ku5KAA"
     }
 }
