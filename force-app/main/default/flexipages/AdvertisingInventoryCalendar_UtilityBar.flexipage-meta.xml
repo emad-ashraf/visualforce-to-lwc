@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>The default utility bar for the Advertising Inventory Calendar application.</description>
+    <description>De standaardbalk voor hulpprogramma&apos;s voor de toepassing Advertising Inventory Calendar.</description>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
@@ -17,7 +17,7 @@
         <name>utilityItems</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Advertising Inventory Calendar App Utility Bar</masterLabel>
+    <masterLabel>Balk voor hulpprogramma&apos;s voor de app Advertising Inventory Calendar</masterLabel>
     <template>
         <name>one:utilityBarTemplateDesktop</name>
     </template>
