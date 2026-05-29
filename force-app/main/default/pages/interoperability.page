@@ -23,15 +23,13 @@
     </p>
     <div id="example-container">
         <h2>VISUALFORCE</h2>
-        <apex:form>
-            <apex:commandButton
-                onclick="setLWCProperty();"
+        <apex:form >
+            <apex:commandButton onclick="setLWCProperty();"
                 onComplete="return null;"
                 value="Press me and set a LWC property!"
             >
             </apex:commandButton>
-            <apex:commandButton
-                onclick="callLWCMethod();"
+            <apex:commandButton onclick="callLWCMethod();"
                 onComplete="return null;"
                 value="Press me and call a LWC method!"
             >

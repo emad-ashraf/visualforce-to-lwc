@@ -1,11 +1,11 @@
 <apex:page controller="PageMessagesFormController">
-    <apex:form>
+    <apex:form >
         <apex:pageMessages />
         <apex:pageBlock title="Error Handling" mode="edit">
-            <apex:pageBlockSection>
+            <apex:pageBlockSection >
                 <apex:inputText label="Enter City Name: " value="{!cityName}" />
             </apex:pageBlockSection>
-            <apex:pageBlockButtons>
+            <apex:pageBlockButtons >
                 <apex:commandButton action="{!cancel}" value="Cancel" />
                 <apex:commandButton action="{!createCity}" value="Save" />
             </apex:pageBlockButtons>

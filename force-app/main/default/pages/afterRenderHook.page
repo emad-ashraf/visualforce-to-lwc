@@ -5,9 +5,8 @@
         </apex:repeat>
     </apex:outputPanel>
 
-    <apex:form>
-        <apex:actionFunction
-            name="populateCoursesAction"
+    <apex:form >
+        <apex:actionFunction name="populateCoursesAction"
             action="{!populateCourses}"
             reRender="coursesPanel"
         ></apex:actionFunction>

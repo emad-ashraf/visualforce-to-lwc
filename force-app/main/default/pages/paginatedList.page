@@ -1,10 +1,9 @@
-<apex:page
-    standardController="Account"
+<apex:page standardController="Account"
     recordSetVar="Accounts"
     extensions="PaginatedListController"
 >
-    <apex:form>
-        <apex:pageblock>
+    <apex:form >
+        <apex:pageblock >
             <apex:pageMessages />
             <apex:pageBlockTable value="{!accounts}" var="account">
                 <apex:column value="{!account.Name}" />
@@ -15,8 +14,7 @@
             <apex:panelGrid columns="4">
                 <apex:commandLink action="{!first}">First</apex:commandLink>
                 <apex:commandLink action="{!previous}"
-                    >Previous</apex:commandLink
-                >
+                    >Previous</apex:commandLink>
                 <apex:commandLink action="{!next}">Next</apex:commandLink>
                 <apex:commandLink action="{!last}">Last</apex:commandLink>
             </apex:panelGrid>

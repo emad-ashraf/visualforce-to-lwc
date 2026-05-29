@@ -1,8 +1,8 @@
-<apex:page>
+<apex:page >
     <apex:panelGrid columns="2" style="width: 100%">
         <apex:outputText value="London"></apex:outputText>
         <apex:outputText value="Madrid"></apex:outputText>
-        <apex:panelGroup>
+        <apex:panelGroup >
             <apex:outputText value="San Francisco"></apex:outputText>
             <apex:outputText value="Tokio"></apex:outputText>
         </apex:panelGroup>

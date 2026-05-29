@@ -1,20 +1,17 @@
-<apex:page>
-    <apex:toolbar>
+<apex:page >
+    <apex:toolbar >
         <apex:toolbarGroup itemSeparator="line">
             <apex:outputLink value="https://www.salesforce.com"
-                >Salesforce</apex:outputLink
-            >
+                >Salesforce</apex:outputLink>
             <apex:outputLink value="https://developer.salesforce.com"
-                >Devs</apex:outputLink
-            >
+                >Devs</apex:outputLink>
         </apex:toolbarGroup>
-        <apex:toolbarGroup
-            itemSeparator="line"
+        <apex:toolbarGroup itemSeparator="line"
             location="right"
             id="toobarGroupForm"
         >
-            <apex:form>
-                <apex:inputText>Text</apex:inputText>
+            <apex:form >
+                <apex:inputText >Text</apex:inputText>
                 <apex:commandLink value="search" />
             </apex:form>
         </apex:toolbarGroup>

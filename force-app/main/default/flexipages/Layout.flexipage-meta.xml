@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <name>region1</name>
@@ -7,20 +7,20 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>pageBlocksWrapper</identifier>
                 <componentName>pageBlocksWrapper</componentName>
+                <identifier>pageBlocksWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>panelGridWrapper</identifier>
                 <componentName>panelGridWrapper</componentName>
+                <identifier>panelGridWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>toolbarWrapper</identifier>
                 <componentName>toolbarWrapper</componentName>
+                <identifier>toolbarWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <name>region2</name>
@@ -29,14 +29,14 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>panelBarWrapper</identifier>
                 <componentName>panelBarWrapper</componentName>
+                <identifier>panelBarWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>tabsWrapper</identifier>
                 <componentName>tabsWrapper</componentName>
+                <identifier>tabsWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>

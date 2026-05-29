@@ -6,6 +6,5 @@
         </apex:inputText>
     </apex:form>
     <apex:outputPanel id="courseInfo"
-        >Course name is: {!courseName}</apex:outputPanel
-    >
+        >Course name is: {!courseName}</apex:outputPanel>
 </apex:page>

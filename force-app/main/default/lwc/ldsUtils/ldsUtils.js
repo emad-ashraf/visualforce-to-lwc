@@ -4,10 +4,12 @@
  * @return {String[]} Error messages
  */
 export function reduceErrors(errors) {
+    if (!Array.isArray(errors)) {
+        errors = [errors];
+    }
+
     return (
-        // ensure errors is an array
-        []
-            .concat(errors)
+        errors
             // Remove null/undefined items
             .filter((error) => !!error)
             // Extract an error message

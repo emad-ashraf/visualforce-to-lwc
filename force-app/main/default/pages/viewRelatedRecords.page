@@ -1,15 +1,13 @@
-<apex:page
-    standardController="Account"
+<apex:page standardController="Account"
     extensions="ViewRelatedRecordsController"
     action="{!getRelatedContacts}"
 >
-    <apex:form>
-        <apex:pageblock>
+    <apex:form >
+        <apex:pageblock >
             <apex:pageBlockTable value="{!contacts}" var="contact">
                 <apex:column headerValue="Name">
                     <apex:outputLink value="/{!contact.Id}"
-                        >{!contact.Name}</apex:outputLink
-                    >
+                        >{!contact.Name}</apex:outputLink>
                 </apex:column>
                 <apex:column value="{!contact.Title}" />
                 <apex:column value="{!contact.Phone}" />

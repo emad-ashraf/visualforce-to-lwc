@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>listRecordLinksWrapper</identifier>
                 <componentName>listRecordLinksWrapper</componentName>
+                <identifier>listRecordLinksWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>listWithParentRecordDataWrapper</identifier>
                 <componentName>listWithParentRecordDataWrapper</componentName>
+                <identifier>listWithParentRecordDataWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>editableListWrapper</identifier>
                 <componentName>editableListWrapper</componentName>
+                <identifier>editableListWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>listInfiniteScrollingWrapper</identifier>
                 <componentName>listInfiniteScrollingWrapper</componentName>
+                <identifier>listInfiniteScrollingWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier>paginatedListWrapper</identifier>
                 <componentName>paginatedListWrapper</componentName>
+                <identifier>paginatedListWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

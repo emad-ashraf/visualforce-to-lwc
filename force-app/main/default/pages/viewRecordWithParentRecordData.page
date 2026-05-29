@@ -4,8 +4,7 @@
             <apex:outputField value="{!Account.Name}" />
             <apex:outputField value="{!Account.Type}" />
             <apex:outputField value="{!Account.Phone}" />
-            <apex:outputField
-                label="Owner Name"
+            <apex:outputField label="Owner Name"
                 value="{!Account.Owner.Name}"
             />
         </apex:pageBlockSection>

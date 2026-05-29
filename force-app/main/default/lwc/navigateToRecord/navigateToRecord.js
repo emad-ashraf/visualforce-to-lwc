@@ -5,10 +5,8 @@ export default class NavigateToRecord extends NavigationMixin(
     LightningElement
 ) {
     @api recordId;
-    @api label;
 
-    navigate(event) {
-        event.preventDefault();
+    connectedCallback() {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {

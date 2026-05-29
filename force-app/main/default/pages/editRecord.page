@@ -1,7 +1,7 @@
 <apex:page standardController="Account" docType="html-5.0">
-    <apex:form>
+    <apex:form >
         <apex:pageBlock title="Account details" mode="edit">
-            <apex:pageBlockButtons>
+            <apex:pageBlockButtons >
                 <apex:commandButton action="{!save}" value="Save" />
                 <apex:commandButton action="{!quicksave}" value="Quick save" />
                 <apex:commandButton action="{!cancel}" value="Cancel" />

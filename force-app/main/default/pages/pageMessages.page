@@ -1,6 +1,6 @@
 <apex:page controller="PageMessagesController">
     <apex:pageMessages />
-    <apex:form>
+    <apex:form >
         <p>Click the next button to generate and send the document:</p>
         <apex:commandButton action="{!callApex}" value="Send PDF" />
     </apex:form>

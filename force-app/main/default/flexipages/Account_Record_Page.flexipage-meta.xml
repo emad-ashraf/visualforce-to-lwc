@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <name>header</name>
@@ -7,15 +7,14 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>viewRecordWrapper</identifier>
                 <componentName>viewRecordWrapper</componentName>
+                <identifier>viewRecordWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentName>viewRecordWithParentRecordDataWrapper</componentName>
                 <identifier>viewRecordWithParentRecordDataWrapper</identifier>
-                <componentName
-                >viewRecordWithParentRecordDataWrapper</componentName>
             </componentInstance>
         </itemInstances>
         <name>leftcol</name>
@@ -24,16 +23,14 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>editRecordWrapper</identifier>
                 <componentName>editRecordWrapper</componentName>
+                <identifier>editRecordWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
-                <identifier
-                >createRecordWithPrepopulatedValuesWrapper</identifier>
-                <componentName
-                >createRecordWithPrepopulatedValuesWrapper</componentName>
+                <componentName>createRecordWithPrepopulatedValuesWrapper</componentName>
+                <identifier>createRecordWithPrepopulatedValuesWrapper</identifier>
             </componentInstance>
         </itemInstances>
         <name>rightcol</name>

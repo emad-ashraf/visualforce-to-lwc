@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <identifier>visualforcePage</identifier>
                 <componentInstanceProperties>
                     <name>height</name>
                     <value>450</value>
@@ -17,6 +16,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:visualforcePage</componentName>
+                <identifier>visualforcePage</identifier>
             </componentInstance>
         </itemInstances>
         <name>region1</name>
