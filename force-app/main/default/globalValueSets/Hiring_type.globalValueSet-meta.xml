@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Employee</fullName>
+        <default>false</default>
+        <label>Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Supplier Employee</fullName>
+        <default>false</default>
+        <label>Supplier Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Independent professional</fullName>
+        <default>false</default>
+        <label>Independent professional</label>
+    </customValue>
+    <masterLabel>Hiring type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
